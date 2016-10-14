@@ -32,6 +32,7 @@ a {
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
 }
+
 a:hover {
   text-decoration: underline;
   color: #5f6b77;
@@ -101,6 +102,9 @@ a.dotted-link:hover {
   text-decoration: none;
   color: #49515a;
 }
+a.spaced{
+  padding-right: 10px;
+}
 /*
 iframe {
 
@@ -128,7 +132,7 @@ iframe {
   margin-right: 30px;
   width: 135px;
   height: 150px;
-  border-radius: 40%;
+  border-radius: 40%; 
 }
 .header .profile-content .name {
   color: #49515a;
