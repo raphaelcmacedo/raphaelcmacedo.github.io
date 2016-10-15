@@ -520,6 +520,37 @@ iframe {
 .footer .fa-heart {
   color: #fb866a;
 }
+/*======= Modal ========*/
+
+h5.alt-title {
+    font-size: 14px;
+}
+.alt-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.portfolio-item-content-spc {
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.text-bold {
+    font-weight: 600;
+    color: #626262;
+}
+
+.portfolio-item-content-detail li {
+    line-height: 2;
+}
+
+ul.list-none {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0;
+}
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .header {
@@ -539,6 +570,7 @@ iframe {
   }
   .project-image {
     margin-bottom: 15px;
+    
   }
 }
 /* Small devices (tablets, 768px and up) */
